@@ -1,9 +1,8 @@
 import os
 import math
 
-
-
 def isOdd(num):
+ print(num % 2 == 1)
  # Return whether number mod 2 is 1:
  return num % 2 == 1
 
